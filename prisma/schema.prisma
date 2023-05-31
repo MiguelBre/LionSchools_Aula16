@@ -13,6 +13,8 @@ datasource db {
 //Para realizar o primeiro acesso ao BD é importante criar uma model e verificar se essa model é criada no BD
     //Isso precesa ser feito pelo menos na primeira vez
 
+//npx prisma migrate dev
+
 //model tbl_usuario{
 //  id  Int @id @default(autoincrement())
 //  nome String
